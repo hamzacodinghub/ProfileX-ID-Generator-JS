@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ID CARD GENERATOR</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="card">
+      Profile Pic Url:
+      <input id="img" type="text" placeholder="Enter your pfp link" />
+      Name:
+      <input
+        type="text"
+        id="name"
+        placeholder="Enter your full name"
+        required
+      />
+      Date of Birth:
+      <input type="date" id="dateOfBirth" required />
+      Role:
+      <input type="text" id="role" placeholder="Enter your Role" required />
+      Contact:
+      <input
+        type="tel"
+        id="contact"
+        placeholder="Enter your Contact"
+        required
+      />
+      <button id="submitBtn" type="submit">Submit</button>
+    </form>
+    <div class="card-container"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
