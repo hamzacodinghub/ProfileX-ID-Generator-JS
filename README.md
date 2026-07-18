@@ -5,9 +5,9 @@ A minimalist, high-performance employee identification card generator built usin
 ---
 
 ## 🎨 Visual Preview & Architecture
-The application features a clean, dual-pane high-contrast container:
-- **Left Panel (Form Gateway):** Captures user credentials (`Name`, `DOB`, `Role`, `Contact`) with active HTML5 boundary rules.
-- **Right Panel (Dynamic Ledger Canvas):** Instantly appends the structural, generated identity cards without page reloads.
+The application features a clean, vertically structured dashboard container:
+- **Top Center Control Pane:** A centralized form gateway that captures user credentials (`Profile Pic Url`, `Name`, `DOB`, `Role`, `Contact`) with active HTML5 boundary rules.
+- **Bottom Canvas Grid Matrix:** Automatically appends newly generated dynamic ID cards horizontally inside a responsive grid layout formatting view without page reloads.
 
 ---
 
@@ -21,7 +21,7 @@ The application features a clean, dual-pane high-contrast container:
 ---
 
 ## 🧮 Tech Stack Matrix
-- **Frontend:** Semantic HTML5, CSS Flexbox Grid System.
+- **Frontend:** Semantic HTML5, CSS Flexbox & Grid Formatting System.
 - **Core Engine:** Vanilla JavaScript (ES6+), Constructor Instances, DOM Traversal.
 
 ---
